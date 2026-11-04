@@ -715,7 +715,7 @@ export default function Home() {
           <div className="mt-12">
 
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:hridoy242-35-195@diu.edu.bd"
               className="inline-flex items-center gap-4 rounded-full bg-white px-8 py-5 text-sm font-semibold text-black transition duration-300 hover:bg-gray-300"
             >
               Let's Talk
