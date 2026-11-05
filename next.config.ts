@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   output: "export",
 
   basePath: process.env.GITHUB_ACTIONS
-    ? "/noone-portfolio"
+    ? "/mahthir-portfolio"
     : undefined,
 
   trailingSlash: true,
