@@ -168,7 +168,7 @@ export default function Home() {
 
           {/* Logo */}
           <h1 className="text-2xl font-bold tracking-wide">
-            NoOne<span className="text-gray-400">.</span>
+            MAHTHIR<span className="text-gray-400">.</span>
           </h1>
 
           {/* Desktop Navigation Links */}
@@ -251,7 +251,7 @@ export default function Home() {
             <br />
 
             <span className="bg-gradient-to-r from-white via-gray-300 to-gray-600 bg-clip-text text-transparent">
-              NoOne.
+              Mahthir Hridoy.
             </span>
 
           </h1>
@@ -350,7 +350,7 @@ export default function Home() {
             <div>
 
               <p className="mb-6 text-lg leading-9 text-gray-400">
-                I am NoOne, an aspiring Machine Learning Engineer
+                I am Mahthir Hridoy, an aspiring Machine Learning Engineer
                 passionate about Artificial Intelligence, Data Science,
                 and intelligent computing systems.
               </p>
@@ -371,14 +371,14 @@ export default function Home() {
               </p>
 
               <h3 className="text-2xl font-light leading-relaxed text-gray-200 md:text-3xl">
-                "The future belongs to those who understand
-                intelligence and know how to build it."
+                "F-E-A-R has two meanings: 'Forget Everything And Run' 
+                or 'Face Everything And Rise.' The choice is yours."
               </h3>
 
               <div className="mt-8 h-px w-20 bg-gray-500"></div>
 
               <p className="mt-5 text-xs tracking-widest text-gray-500">
-                — NoOne
+                — Zig Ziglar
               </p>
 
             </div>
@@ -785,12 +785,12 @@ export default function Home() {
 
           {/* Logo */}
           <h2 className="text-xl font-bold tracking-wide">
-            NoOne<span className="text-gray-500">.</span>
+            Mahthir<span className="text-gray-500">.</span>
           </h2>
 
           {/* Copyright */}
           <p className="text-xs text-gray-600">
-            © {new Date().getFullYear()} NoOne. All rights reserved.
+            © {new Date().getFullYear()} MAHTHIR. All rights reserved.
           </p>
 
           {/* Back to Top */}
