@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 
 //title = page name
 export const metadata: Metadata = {
-  title: "NoOne | AI & Machine Learning Developer",
+  title: "Mahthir | AI & Machine Learning Developer",
   description:
-    "Explore NoOne's portfolio, projects, skills, and journey in Artificial Intelligence and Machine Learning.",
+    "Explore Mahthir's portfolio, projects, skills, and journey in Artificial Intelligence and Machine Learning.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
