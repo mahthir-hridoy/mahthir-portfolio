@@ -82,9 +82,9 @@ function handlePointerUp(e: React.PointerEvent) {
               onClick={() => {
                 if (isSide) moveProject(offset);
               }}
-              className="absolute left-1/2 top-2 w-[78%] rounded-2xl border border-white/15 bg-[#101010] p-6 transition-[transform,filter,opacity] duration-500 ease-in-out will-change-transform"
+              className="absolute left-1/2 top-2 flex h-[520px] w-[78%] flex-col rounded-2xl border border-white/15 bg-[#101010] p-6 transition-[transform,filter,opacity] duration-500 ease-in-out will-change-transform"
               style={{
-                transform: `perspective(1000px) translateX(calc(-50% + ${offset * 88}%)) rotateY(${offset * -12}deg) scale(${isActive ? 1 : isSide ? 0.82 : 0.65})`,
+                transform: `perspective(1000px) translateX(calc(-50% + ${offset * 88}%)) rotateY(${offset * -12}deg) scale(1)`,
                 filter: isActive ? "blur(0px)" : "blur(3px)",
                 opacity: isActive ? 1 : isSide ? 0.45 : 0,
                 zIndex: 10 - Math.abs(offset),
@@ -123,7 +123,7 @@ function handlePointerUp(e: React.PointerEvent) {
                 ))}
               </div>
 
-              <p className="mt-8 border-t border-white/10 pt-5 text-[10px] tracking-widest text-gray-500">
+              <p className="mt-auto border-t border-white/10 pt-5 text-[10px] tracking-widest text-gray-500">
                 PROJECT IDEA — NOT YET IMPLEMENTED
               </p>
             </div>
